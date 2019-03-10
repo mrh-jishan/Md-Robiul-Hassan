@@ -42,11 +42,11 @@
 
                 <li class="main-nav__item" routerLinkActive="main-nav__item--active">
                     <a class="main-nav__item-link" routerLink="blog"><span
-                        class="main-nav__item-icon-wrapper"><i class="main-nav__item-icon icon-blog"></i></span>
-                    <span class="main-nav__item-content">Blog</span></a></li>
+                            class="main-nav__item-icon-wrapper"><i class="main-nav__item-icon icon-blog"></i></span>
+                        <span class="main-nav__item-content">Blog</span></a></li>
                 <li class="main-nav__item" routerLinkActive="main-nav__item--active">
                     <a class="main-nav__item-link" routerLink="contact"><span
-                        class="main-nav__item-icon-wrapper">
+                            class="main-nav__item-icon-wrapper">
                         <i class="main-nav__item-icon icon-envelop"></i>
                     </span>
                         <span class="main-nav__item-content">Contact</span>
@@ -60,7 +60,7 @@
     </div>
     <div class="layout-sidebar layout-sidebar-width">
         <div class="sidebar">
-            <div class="sidebar__site-name">paul rossi.</div>
+            <div class="sidebar__site-name">md. robiul hassan</div>
             <div class="widget">
                 <ul class="widget__list">
                     <li>web developer</li>
@@ -86,27 +86,10 @@
             </footer>
         </div>
     </div>
-
-    <router-outlet></router-outlet>
-
-
-</div>
-<div class="style-panel" style="display:none">
-    <div class="style-panel__button"><i class="fa fa-paint-brush"></i></div>
-    <div class="style-panel__title">Choose a color:</div>
-    <div class="style-panel__colors"><a data-value="style1" href="index-2.html#"
-                                        class="style-panel__color style-panel__color--style1"></a> <a
-            data-value="style2" href="index-2.html#"
-            class="style-panel__color style-panel__color--style2"></a> <a data-value="style3" href="index-2.html#"
-                                                                          class="style-panel__color style-panel__color--style3"></a>
-        <a data-value="style4" href="index-2.html#"
-           class="style-panel__color style-panel__color--style4"></a> <a data-value="style5" href="index-2.html#"
-                                                                         class="style-panel__color style-panel__color--style5"></a>
-        <a data-value="style6" href="index-2.html#"
-           class="style-panel__color style-panel__color--style6"></a></div>
-    <div class="style-panel__info">and many more...</div>
-    <div class="style-panel__reset">
-        <button class="btn-reset btn btn-xs btn--style1">reset</button>
+    <div class="layout-container-main layout-container-width">
+        <router-outlet></router-outlet>
+        <div class="footer--bottom layout-row">
+            <p class="footer__copyright">&copy; Rossi, 2015. All rights reserved.</p>
+        </div>
     </div>
 </div>
-

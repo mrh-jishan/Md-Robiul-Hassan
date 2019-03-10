@@ -1612,7 +1612,7 @@ textarea {
 }
 
 .blog-post__image-wrap:after {
-    background: url(../images/cross.png) 50% no-repeat;
+    /*background: url(../images/cross.png) 50% no-repeat;*/
     transition: all .3s ease-in-out
 }
 

@@ -1,3 +1,35 @@
-<p>
-  contact works!
-</p>
+<div class="layout-content">
+    <section class="page-contact">
+        <div class="layout-title-wrapper layout-row">
+            <h1 class="layout-title layout-container-width layout-container">contact. <span
+                    class="layout-title__subtitle">Wanna talk to me?</span></h1>
+        </div>
+        <form action="#" id="contactForm" method="post" class="layout-horizontal-padding">
+            <div class="row">
+                <div class="col-md-6"><input name="name" class="form__item" type="text" placeholder="name">
+                    <div class="form__item__failed-wrap"></div>
+                </div>
+                <div class="col-md-6"><input name="email" class="form__item" type="text"
+                                             placeholder="email">
+                    <div class="form__item__failed-wrap"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <textarea name="msg" class="form__textarea form__item" placeholder="message"></textarea>
+                    <div class="form__item__failed-wrap"></div>
+                    <div class="form__status"></div>
+                    <button type="submit" class="btn btn-lg btn--style1">Send message</button>
+                </div>
+            </div>
+        </form>
+        <div class="layout-horizontal-padding--clean"></div>
+        <div class="layout-horizontal-padding">
+            <ul class="contact-info">
+                <li><i class="fa fa-envelope"></i> <span>contact@rossi.com</span></li>
+                <li><i class="fa fa-phone"></i> <span>(541) 754-3010</span></li>
+                <li><i class="fa fa-map-marker"></i> <span>Santa Monica, CA</span></li>
+            </ul>
+        </div>
+    </section>
+</div>
