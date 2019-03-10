@@ -1,0 +1,112 @@
+<div class="layout layout-width">
+    <div class="layout-anti-scroll layout-anti-scroll--active layout-width"></div>
+    <div class="layout-header layout-width">
+        <header>
+            <div id="headerMenuSlidingElement" class="main-nav__sliding-element"></div>
+            <ul class="main-nav">
+
+                <li class="main-nav__item" routerLinkActive="main-nav__item--active">
+                    <a class="main-nav__item-link" routerLink="index">
+                    <span class="main-nav__item-icon-wrapper">
+                        <i class="main-nav__item-icon icon-home"></i>
+                    </span>
+                        <span class="main-nav__item-content">Home</span>
+                    </a>
+                </li>
+
+                <li class="main-nav__item" routerLinkActive="main-nav__item--active">
+                    <a class="main-nav__item-link" routerLink="resume">
+                    <span class="main-nav__item-icon-wrapper">
+                        <i class="main-nav__item-icon icon-profile"></i>
+                    </span>
+                        <span class="main-nav__item-content">Resume</span>
+                    </a>
+                </li>
+
+                <li class="main-nav__item" routerLinkActive="main-nav__item--active">
+                    <a class="main-nav__item-link" routerLink="services">
+                        <span class="main-nav__item-icon-wrapper">
+                            <i class="main-nav__item-icon icon-stats-bars2"></i></span>
+                        <span class="main-nav__item-content">Services</span>
+                    </a>
+                </li>
+
+                <li class="main-nav__item" routerLinkActive="main-nav__item--active">
+                    <a class="main-nav__item-link" routerLink="portfolio">
+                        <span class="main-nav__item-icon-wrapper">
+                            <i class="main-nav__item-icon icon-books"></i>
+                        </span>
+                        <span class="main-nav__item-content">Portfolio</span>
+                    </a>
+                </li>
+
+                <li class="main-nav__item" routerLinkActive="main-nav__item--active">
+                    <a class="main-nav__item-link" routerLink="blog"><span
+                        class="main-nav__item-icon-wrapper"><i class="main-nav__item-icon icon-blog"></i></span>
+                    <span class="main-nav__item-content">Blog</span></a></li>
+                <li class="main-nav__item" routerLinkActive="main-nav__item--active">
+                    <a class="main-nav__item-link" routerLink="contact"><span
+                        class="main-nav__item-icon-wrapper">
+                        <i class="main-nav__item-icon icon-envelop"></i>
+                    </span>
+                        <span class="main-nav__item-content">Contact</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="mobile-menu"><a class="mobile-menu__toggle" href="index-2.html#"><span
+                    class="mobile-menu__toggle__icon"><i class="fa fa-bars mobile-menu__toggle__icon__open"></i>
+                            <i class="fa fa-times mobile-menu__toggle__icon__close"></i></span></a></div>
+        </header>
+    </div>
+    <div class="layout-sidebar layout-sidebar-width">
+        <div class="sidebar">
+            <div class="sidebar__site-name">paul rossi.</div>
+            <div class="widget">
+                <ul class="widget__list">
+                    <li>web developer</li>
+                    <li>photographer</li>
+                    <li>soccer fan</li>
+                    <li>father of two</li>
+                </ul>
+            </div>
+            <ul class="social-icons">
+                <li><a href="https://twitter.com/" target="_blank" class="social-icon--twitter"><i
+                        class="fa fa-twitter"></i></a></li>
+                <li><a href="https://facebook.com/" target="_blank" class="social-icon--facebook"><i
+                        class="fa fa-facebook"></i></a></li>
+                <li><a href="https://plus.google.com/" target="_blank" class="social-icon--google-plus"><i
+                        class="fa fa-google-plus"></i></a></li>
+                <li><a href="https://pinterest.com/" target="_blank" class="social-icon--pinterest"><i
+                        class="fa fa-pinterest"></i></a></li>
+                <li><a href="https://www.linkedin.com/" target="_blank" class="social-icon--linkedin"><i
+                        class="fa fa-linkedin"></i></a></li>
+            </ul>
+            <footer class="footer">
+                <p class="footer__copyright">&copy; Rossi, 2015. All rights reserved.</p>
+            </footer>
+        </div>
+    </div>
+
+    <router-outlet></router-outlet>
+
+
+</div>
+<div class="style-panel" style="display:none">
+    <div class="style-panel__button"><i class="fa fa-paint-brush"></i></div>
+    <div class="style-panel__title">Choose a color:</div>
+    <div class="style-panel__colors"><a data-value="style1" href="index-2.html#"
+                                        class="style-panel__color style-panel__color--style1"></a> <a
+            data-value="style2" href="index-2.html#"
+            class="style-panel__color style-panel__color--style2"></a> <a data-value="style3" href="index-2.html#"
+                                                                          class="style-panel__color style-panel__color--style3"></a>
+        <a data-value="style4" href="index-2.html#"
+           class="style-panel__color style-panel__color--style4"></a> <a data-value="style5" href="index-2.html#"
+                                                                         class="style-panel__color style-panel__color--style5"></a>
+        <a data-value="style6" href="index-2.html#"
+           class="style-panel__color style-panel__color--style6"></a></div>
+    <div class="style-panel__info">and many more...</div>
+    <div class="style-panel__reset">
+        <button class="btn-reset btn btn-xs btn--style1">reset</button>
+    </div>
+</div>
+
